@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "662526949922",
+    "firebase_url": "https://a202sgigroup3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "a202sgigroup3",
+    "storage_bucket": "a202sgigroup3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662526949922:android:f86f6a8c2dd3c358fbe87b",
+        "android_client_info": {
+          "package_name": "com.a202.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662526949922-kkftirker7040om394nquungfumbmo5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU3ALhuoWqpmoyhaX070Da53vZr8oZe1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662526949922-kkftirker7040om394nquungfumbmo5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662526949922:android:3a0865d5fc07866ffbe87b",
+        "android_client_info": {
+          "package_name": "com.example.yogaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662526949922-kkftirker7040om394nquungfumbmo5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU3ALhuoWqpmoyhaX070Da53vZr8oZe1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662526949922-kkftirker7040om394nquungfumbmo5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

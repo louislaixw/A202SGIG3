@@ -13,53 +13,64 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <Button
+                android:id="@+id/quitSession"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:background="#FF0000"
+                android:layout_marginTop="20px"
+                android:layout_gravity="center"
+                android:text='Quit Session'
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#E91E63" />
+
             <pl.droidsonroids.gif.GifImageView
                 android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="200dp"
-                android:src="@drawable/exersice_10"
+                android:src="@drawable/exersice_7"
                 />
 
             <Button
                 android:id="@+id/time"
                 android:layout_width="170dp"
                 android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
                 android:layout_marginTop="35dp"
-                android:layout_marginLeft="100dp"
-                android:text="01:00"
-                android:textSize="20dp"
-                android:padding="15dp"
                 android:background="@drawable/button_bg_round"
-                />
+                android:padding="15dp"
+                android:text="01:00"
+                android:textSize="20dp" />
 
             <Button
                 android:id="@+id/startbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="center"
+                android:layout_marginLeft="0dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="08dp"
                 android:background="@drawable/button_bg"
+                android:gravity="center"
                 android:text="START"
                 android:textColor="#FFF"
                 android:textSize="20dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
-                android:layout_width="305dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="28dp"
-                android:textAlignment="center"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="50dp"
+                android:layout_width="253dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0px"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_ji"
+                android:padding="7dp"
                 android:text="How To Do This"
+                android:textAlignment="center"
                 android:textColor="#686060"
                 android:textSize="25sp"
-                android:padding="7dp"
-                android:textStyle="bold"
-                android:background="@drawable/button_ji"
-                />
+                android:textStyle="bold" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -80,7 +91,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#ECEDEB"
-                        android:text="@string/pose10"
+                        android:text="@string/pose7"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         />

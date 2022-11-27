@@ -14,7 +14,7 @@
                              Step 2:- Put your hands behind your head, then bring your knees in towards your Chest and lift your shoulder blades off the ground, but be sure not to pull on your neck.\n\n
                              Step 3:-Straighten your right leg out to about a 4S-degree angle to the ground while turning your upper body to the left, bringing your right elbow towards the left knee.\n\n
                              Step 4:- Make sure your rib cage is moving and hotjust your elbows. Now switch sides and do the same motion on the other side to complete onerep. </string>
-    <string name="pose5">   Step 1:- Lay down with your hands to your sides for support. \n\n
+    <string name="pose5">    Step 1:- Lay down with your hands to your sides for support. \n\n
                              Step 2:- Raise your legs so they are off the ground, keeping the abdominals tight.\n\n
                              Step 3:- Slowly raise your legs 90 degrees, contracting the abdominal muscles. Slowly return to starting position. Do not touch the floor with your feet.\n\n
                             </string>
@@ -58,34 +58,33 @@
                              Step 3:- Head will follow chest action. </string>
 
     <string-array name="title_story">
-
-        <item>Build more muscle</item>
-        <item>Replace Coffee with Matcha Green Tea</item>
-        <item>Just keep moving</item>
-        <item>Stop counting calories</item>
-        <item>Pick up a kettlebell</item>
-        <item>Do yoga</item>
-        <item>Get Intense</item>
-        <item>Stop sleeping late</item>
-        <item>Make one meal a day vegan</item>
-        <item>Go green</item>
-
+        <item>Do not skip breakfast</item>
+        <item>Eat regular meals</item>
+        <item>Eat more fruits and vegetables</item>
+        <item>Become active</item>
+        <item>Drink more water and less soft drinks</item>
+        <item>Eat foods that are rich is fibre</item>
+        <item>Read food labels</item>
+        <item>Use smaller plates</item>
+        <item>Do not ban fruits</item>
+        <item>Do not always buy junk food</item>
+        <item>Cut down alcohol</item>
+        <item>Plan your meals properly</item>
     </string-array>
 
     <string-array name="details_story">
-
-        <item>Build for muscles:- asdhjkashdskjhdaksdkajhdad</item>
-        <item>Replace Coffee with Matcha Green Tea:- qdjkasldjlasdlsksd</item>
-        <item>Just keep moving :-odjasdalsjhdasjdlakjdklajsdadsad</item>
-        <item>Stop counting calories:- saoijdiajsodjasdjaojsd</item>
-        <item>Pick up a kettlebell:- aodasodhoasdsahdahjsd</item>
-        <item>Do yoga:- jqhdshdkajhsdkhaksjdad</item>
-        <item>Get Intense:- lksdalskjdlaksjdlkd</item>
-        <item>Stop sleeping late:- ksdalksjdasdasdsd</item>
-        <item>Make one meal a day vegan:- asldnalsjdandasad</item>
-        <item>Go green:- ajdaisjdoaisjdasdasdasdasdsdsdd</item>
-
-
+        <item>Skipping breakfast never helps in losing weight. You could miss out on essential nutrients and may end up snacking more throughout the day because you feel hungry.</item>
+        <item>Eating at regular times during the day helps burn calories at a faster rate. Eating regular meals also reduces the temptation to snack on foods high in fat and sugar.</item>
+        <item>Fruits and vegetables are low in calories and fats while high in fibres. These are 3 essential ingredients for successful weight loss. They also contain plenty vitamins and minerals.</item>
+        <item>Being active is one of the keys in losing weight because it provide lots of health benefits. Exercise can help burn off the excess calories. Find one that catch your eye.</item>
+        <item>People sometimes confuse thirst with hunger. You can end up consuming extra calories when a glass of water is really what you need.</item>
+        <item>Foods that are rich in fibre can help you feeling full, which is perfect for losing weight. Fibre is only found in food from plants such as fruits, vegetables, breads, pasta and many more.</item>
+        <item>Knowing how to read food labels can help you choose healthier options. Use the calorie information to work out how a particular food fits into your daily calorie allowance on the weight loss plan.</item>
+        <item>Using smaller plates can help you eat smaller portions which is a good way for maintaining diet. With this, you can be used to eating smaller portions without going hungry.</item>
+        <item>If possible, it is not recommended to ban foods from your weight loss plan, especially the one that you like. Banning foods will only make you crave them even more. There is no reason you cannot enjoy the food that you like while diet.</item>
+        <item>To avoid temptation, do not stock junk food such as chocolates, biscuits, snacks and sweet drinks. Instead, opt for healthy foods such as salads, fruits and fruit juice.</item>
+        <item>A standard glass of wine can contain as many calories as a piece of chocolate. Over time, drinking too much alcohols can easily contribute to weight gain.</item>
+        <item>It is recommended to plan your breakfast, lunch, dinner and snacks for the week, making sure you stick to your calorie allowance. You may find it helpful to make a weekly shopping list.</item>
     </string-array>
 
 

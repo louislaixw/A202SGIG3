@@ -20,14 +20,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ThirdActivity2"
+            android:name=".MuscleActivityList"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ThirdActivity"
+            android:name=".StandardActivityList"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -41,22 +41,38 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SecondActivity2"
+            android:name=".MuscleActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".SecondActivity"
+            android:name=".StandardActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity android:name=".MainActivity" />
+
+        <activity android:name=".LoginActivity"
+            android:exported="false"/>
+
+        <activity android:name=".RegisterActivity"
+            android:exported="false"/>
+
+        <activity android:name=".ProfileActivity"
+            android:exported="true"
+            />
+
+        <activity android:name=".ForgotPassword"
+            android:exported="true"
+            />
+
         <activity
-            android:name=".Splashscreenok"
+            android:name=".splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,6 +80,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

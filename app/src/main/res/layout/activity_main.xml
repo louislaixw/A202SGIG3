@@ -13,15 +13,22 @@
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#131212"
+        android:background="#673AB7"
+        android:gravity="end"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="Bfit App"
-        app:titleTextColor="#FFF"
-        android:gravity="end" />
+        app:title="BFit App - Workout Companion"
+        app:titleTextColor="#FFF">
 
+        <ImageView
+            android:id="@+id/toProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="170px"
+            android:src="@drawable/profile"
+            app:tint="#FFFFFF" />
 
-
+    </androidx.appcompat.widget.Toolbar>
     <LinearLayout
         android:layout_marginTop="10dp"
         android:layout_width="fill_parent"
@@ -39,7 +46,7 @@
          >
 
          <LinearLayout
-             android:onClick="before18yearsold"
+             android:onClick="standardWorkout"
              android:layout_width="fill_parent"
              android:layout_height="150.0dp"
              android:layout_gravity="center"
@@ -61,9 +68,9 @@
                      android:layout_height="wrap_content"
                      android:fontFamily="serif"
                      android:padding="5.0dp"
-                     android:text="Before 18 years old"
+                     android:text="Standard Workout"
                      android:textColor="#ff000000"
-                     android:textSize="20.0dp"
+                     android:textSize="17.0dp"
                      android:textStyle="bold"
                      />
 
@@ -72,7 +79,7 @@
                      android:layout_height="wrap_content"
                      android:fontFamily="serif"
                      android:padding="5.0dp"
-                     android:text="60 Days"
+                     android:text="31 Days"
                      android:textSize="20.0dp"
                      android:textStyle="bold"
                      />
@@ -132,7 +139,7 @@
 
 
     <Button
-        android:id="@+id/startyoga1"
+        android:id="@+id/startStandard"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10.0dp"
@@ -154,7 +161,7 @@
             >
 
             <LinearLayout
-                android:onClick="after18yearsold"
+                android:onClick="muscleWorkout"
                 android:layout_width="fill_parent"
                 android:layout_height="150.0dp"
                 android:layout_gravity="center"
@@ -176,9 +183,9 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="serif"
                         android:padding="5.0dp"
-                        android:text="After 18 Years Old"
+                        android:text="Muscle Building Workouts"
                         android:textColor="#ff000000"
-                        android:textSize="20.0dp"
+                        android:textSize="17.0dp"
                         android:textStyle="bold"
                         />
 
@@ -187,7 +194,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="serif"
                         android:padding="5.0dp"
-                        android:text="60 Days"
+                        android:text="31 Days"
                         android:textSize="20.0dp"
                         android:textStyle="bold"
                         />
@@ -246,7 +253,7 @@
 
 
             <Button
-                android:id="@+id/startyoga2"
+                android:id="@+id/startmuscle"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
@@ -261,7 +268,7 @@
 
 
      <LinearLayout
-         android:onClick="food"
+         android:onClick="dietPlan"
          android:layout_width="fill_parent"
          android:layout_height="wrap_content"
          android:layout_margin="10.0dp"
@@ -293,9 +300,9 @@
                  <TextView
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
-                     android:fontFamily="monospace"
+                     android:fontFamily="serif"
                      android:padding="5.0dp"
-                     android:text="Yoga or Nutrition Tips"
+                     android:text="Dietary Tips and Guides"
                      android:textColor="#ff000000"
                      android:textSize="17.0dp"
                      android:textStyle="bold"
@@ -306,9 +313,11 @@
                  <TextView
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
+                     android:fontFamily="serif"
                      android:padding="5.0dp"
-                     android:text="Suggestions for free"
+                     android:text="To healthy lifes"
                      android:textStyle="bold"
+                     android:textSize="20.0dp"
 
 
                      />
@@ -328,7 +337,7 @@
                 <ImageView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/food"
+                    android:src="@drawable/nutri"
 
                     />
 

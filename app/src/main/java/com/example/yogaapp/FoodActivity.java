@@ -21,11 +21,9 @@ public class FoodActivity extends AppCompatActivity {
         String[] tstory = getResources().getStringArray(R.array.title_story);
         final String[] dstory = getResources().getStringArray(R.array.details_story);
 
-
         listView = findViewById(R.id.list);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.row,R.id.rowText,tstory);
         listView.setAdapter(adapter);
-
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -34,14 +32,12 @@ public class FoodActivity extends AppCompatActivity {
                 Intent intent = new Intent(FoodActivity.this,FoodActivityDetails.class);
                 intent.putExtra("story",t);
                 startActivity(intent);
-
             }
         });
 
     }
 
     public void foodBack(View view) {
-
         Intent intent = new Intent(FoodActivity.this,MainActivity .class);
         startActivity(intent);
         finish();

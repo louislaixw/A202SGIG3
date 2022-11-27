@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_bow.xml" value="0.1" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_bow2.xml" value="0.1" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_bridge.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_bridge2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_chain.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_chain2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_child.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_child2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_cobbler.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_cobbler2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_cow.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_cow2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_crunches.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_food.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_food_details.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_main.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_second.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_second2.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_situp.xml" value="0.35625" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_splashscreenok.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_third.xml" value="0.35625" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_third2.xml" value="0.35625" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_windmill.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/activity_windmill2.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/layout/row.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/User/Desktop/A202SGIGroup3/app/src/main/res/menu/main_menu.xml" value="0.35462962962962963" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_benchups.xml" value="0.28854166666666664" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_benchups2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bodycrunch2.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bodytwist.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bodytwist2.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bow.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bow2.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bridge.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_bridge2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_chain.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_chain2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_child.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_child2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_cobbler.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_cobbler2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_cow.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_cow2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_crunches.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_crunches2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_food.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_food_details.xml" value="0.3380208333333333" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_handplank.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_handplank2.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_heelt.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_heelt2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_heeltouch.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_heeltouch2.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_legraise.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_legraise2.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_legup.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_legup2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_pauseji.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_pauseji2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_plank.xml" value="0.34413965087281795" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_plank2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_playji.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_playji2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_pushup.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_pushup2.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_rotation.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_rotation2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_russiantwists.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_russiantwists2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_second.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_second2.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_situp.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_situp2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_situps.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_situps2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_splashscreenok.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_third.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_third2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_twist.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_twist2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_vcrunch.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_vcrunch2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_vups2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_windmill.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_windmill2.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_windmills.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/activity_windmills2.xml" value="0.371875" />
+        <entry key="..\:/Users/User/Desktop/Fitnessv4/app/src/main/res/layout/row.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

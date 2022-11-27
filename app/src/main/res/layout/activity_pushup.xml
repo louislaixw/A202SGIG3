@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,9 +26,9 @@
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="fill_parent"
-                android:layout_height="200dp"
+                android:layout_height="223dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/exersice_11" />
+                android:src="@drawable/exersice_1" />
 
             <Button
                 android:id="@+id/time"
@@ -93,8 +91,10 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#ECEDEB"
-                        android:text="@string/pose11"
+                        android:layout_gravity='center'
+                        android:background="#ededed"
+                        android:padding="20px"
+                        android:text="@string/pose1"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
 

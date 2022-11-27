@@ -6,9 +6,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,10 +25,11 @@
                 app:backgroundTint="#E91E63" />
 
             <pl.droidsonroids.gif.GifImageView
+                android:layout_marginTop="10dp"
                 android:layout_width="fill_parent"
                 android:layout_height="200dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/exersice_11" />
+                android:src="@drawable/exersice_3"
+                />
 
             <Button
                 android:id="@+id/time"
@@ -76,27 +75,26 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="20dp"
+                app:cardCornerRadius="20dp"
                 android:background="#ECEDEB"
-                app:cardCornerRadius="20dp">
-
+                android:layout_marginBottom="20dp">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="25dp"
                     android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
                     android:background="#ECEDEB"
+                    android:layout_marginTop="25dp"
                     android:orientation="horizontal">
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#ECEDEB"
-                        android:text="@string/pose11"
+                        android:text="@string/pose3"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

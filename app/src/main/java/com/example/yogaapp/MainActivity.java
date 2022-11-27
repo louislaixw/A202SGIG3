@@ -7,12 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-
-    Button button1,button2;
-
+    Button button1, button2;
+    ImageView profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,60 +22,49 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
 
-
-
-
-
-
-        button1 = findViewById(R.id.startyoga1);
-        button2 = findViewById(R.id.startyoga2);
-
+        button1 = findViewById(R.id.startStandard);
+        button2 = findViewById(R.id.startmuscle);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+                Intent intent = new Intent(MainActivity.this, StandardActivity.class);
                 startActivity(intent);
-
             }
         });
-
-
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent = new Intent(MainActivity.this,SecondActivity2.class);
+                Intent intent = new Intent(MainActivity.this, MuscleActivity.class);
                 startActivity(intent);
-
             }
         });
 
+        profile = findViewById(R.id.toProfile);
+        profile.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
-
-    public void before18yearsold(View view) {
-
-        Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+    public void standardWorkout(View view) {
+        Intent intent = new Intent(MainActivity.this, StandardActivity.class);
         startActivity(intent);
     }
 
-    public void after18yearsold(View view) {
-
-
-        Intent intent = new Intent(MainActivity.this,SecondActivity2.class);
+    public void muscleWorkout(View view) {
+        Intent intent = new Intent(MainActivity.this, MuscleActivity.class);
         startActivity(intent);
     }
 
-    public void food(View view) {
-
-        Intent intent = new Intent(MainActivity.this,FoodActivity.class);
+    public void dietPlan(View view) {
+        Intent intent = new Intent(MainActivity.this, FoodActivity.class);
         startActivity(intent);
-
-
-
     }
 }
+

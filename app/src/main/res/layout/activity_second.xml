@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context="com.example.yogaapp.SecondActivity">
+    tools:context="com.example.yogaapp.StandardActivity">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -16,19 +16,28 @@
         android:background="@color/design_default_color_primary_dark"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="Yoga App"
-        app:titleTextColor="#FFF"
+        app:title="Standard"
+        app:titleTextColor="#FFF">
 
 
-        />
+        <ImageView
+            android:id="@+id/returnToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="750px"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
 
-    
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1.0"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <ScrollView
             android:layout_width="fill_parent"
@@ -37,14 +46,14 @@
             android:scrollbars="none"
 
             >
-            
+
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:orientation="vertical"
 
                 >
-                
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -54,13 +63,13 @@
 
 
                     >
-                    
+
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/bow_pose"
+                        android:id="@+id/mountain_climber"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -93,8 +102,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -106,7 +115,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -122,30 +130,22 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
-
-                                />
+                                android:src="@drawable/exersice_1" />
 
                         </LinearLayout>
-                        
+
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-
+                            android:gravity="center">
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5.0dp"
                                 android:src="@drawable/ic_baseline_arrow_right_24"
-
                                 />
-
-
                         </LinearLayout>
 
 
@@ -155,11 +155,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
-                    
+
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -171,11 +171,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/bridge_pose"
+                        android:id="@+id/basic_crunches"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -208,8 +208,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -221,7 +221,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -247,9 +246,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -270,11 +268,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -286,11 +284,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/chain_pose"
+                        android:id="@+id/wall_squat"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -323,8 +321,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -336,7 +334,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -362,9 +359,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -385,11 +381,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -401,11 +397,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/child_pose"
+                        android:id="@+id/bicycle_crunch"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -438,8 +434,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -451,7 +447,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -477,9 +472,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -500,11 +494,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -515,12 +509,13 @@
 
                     >
 
+
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/cobbler_pose"
+                        android:id="@+id/legraise"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -553,8 +548,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -566,7 +561,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -592,9 +586,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -611,15 +604,14 @@
 
                     </LinearLayout>
 
-
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -632,7 +624,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/cow_pose"
+                        android:id="@+id/heeltouch"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -728,11 +720,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -744,11 +736,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/playji_pose"
+                        android:id="@+id/legupcrunch"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -781,8 +773,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -794,7 +786,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -820,9 +811,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -843,11 +833,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -859,11 +849,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pauseji_pose"
+                        android:id="@+id/situp"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -896,8 +886,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -909,7 +899,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -935,9 +924,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -958,8 +946,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
@@ -975,11 +962,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/plank_pose"
+                        android:id="@+id/vupspose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -1012,8 +999,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -1025,7 +1012,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -1051,9 +1037,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -1080,6 +1065,7 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -1091,11 +1077,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/crunches_pose"
+                        android:id="@+id/plank"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -1128,8 +1114,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -1141,7 +1127,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -1167,9 +1152,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -1196,6 +1180,7 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -1207,11 +1192,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/situp_pose"
+                        android:id="@+id/plankmain"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -1244,8 +1229,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -1257,7 +1242,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -1283,9 +1267,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -1306,11 +1289,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -1322,11 +1305,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/rotation_pose"
+                        android:id="@+id/russiantwistpose"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -1359,8 +1342,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -1372,7 +1355,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -1398,9 +1380,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -1426,6 +1407,7 @@
                         />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -1437,11 +1419,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/twist_pose"
+                        android:id="@+id/bridge"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -1474,8 +1456,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -1487,7 +1469,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -1513,9 +1494,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -1536,11 +1516,11 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-                        />
+                        android:background="#ffaaa9a9" />
 
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -1552,11 +1532,11 @@
                     >
 
                     <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/windmill_pose"
+                        android:id="@+id/legcrunch"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
+                        android:onClick="Imagebuttonclicked"
                         android:orientation="horizontal"
 
                         >
@@ -1589,8 +1569,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
                                 android:textColor="@color/black"
+                                android:textStyle="bold"
 
                                 />
 
@@ -1602,7 +1582,6 @@
                                 android:textStyle="bold"
 
                                 />
-
 
 
                         </LinearLayout>
@@ -1628,125 +1607,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
                             android:layout_weight="0.0"
-                            >
-
-
-                            <ImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_margin="5.0dp"
-                                android:src="@drawable/ic_baseline_arrow_right_24"
-
-                                />
-
-
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-
-                    <TableRow
-                        android:layout_width="fill_parent"
-                        android:layout_height="1.0dp"
-                        android:background="#ffaaa9a9"
-
-                        />
-
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="100.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="vertical"
-
-
-                    >
-
-                    <LinearLayout
-                        android:onClick="Imagebuttonclicked"
-                        android:id="@+id/legup_pose"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10.0dp"
-                        android:orientation="horizontal"
-
-                        >
-
-
-                        <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10.0dp"
-                            android:layout_weight="1.0"
-                            android:orientation="vertical"
-
-                            >
-
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="monospace"
-                                android:text="Windmill"
-                                android:textAllCaps="true"
-                                android:textColor="#ff000000"
-                                android:textSize="15.0dp"
-                                android:textStyle="bold"
-
-
-                                />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Repeat 2 Sets"
-                                android:textStyle="bold"
-                                android:textColor="@color/black"
-
-                                />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="01:00 MINUTE"
-                                android:textColor="@color/black"
-                                android:textStyle="bold"
-
-                                />
-
-
-
-                        </LinearLayout>
-
-
-                        <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2.0"
-
-                            >
-
-                            <pl.droidsonroids.gif.GifImageView
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_15"
-
-                                />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_weight="0.0"
-                            >
+                            android:gravity="center">
 
 
                             <ImageView
@@ -1775,24 +1637,10 @@
                 </LinearLayout>
 
 
-                
-                
-                
-                
-                
-                
             </LinearLayout>
 
 
-
-
-            
         </ScrollView>
-
-
-
-
-
 
 
     </LinearLayout>

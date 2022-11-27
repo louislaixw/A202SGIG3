@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background= "#ADD8E6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--    Profile Picture-->
+
+        <ImageView
+            android:id="@+id/pfp"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="99dp"
+            android:src="@drawable/profile"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:fontFamily="sans-serif-black"
+            android:text="User Profile"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215dp"
+
+            android:textSize="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="357dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="282dp"
+            android:layout_marginEnd="27dp">
+
+            <!--    Title, set center.-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="4dp"
+                android:text="Past Workouts"
+                android:layout_marginBottom="30dp"
+                android:textSize="50px"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/prevWorkouts"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="4dp"
+                android:text=""
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/prevWorkouts2"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="4dp"
+                android:text=""
+                android:textAlignment="center" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/logout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="600dp"
+            android:layout_marginEnd="157dp"
+            android:text="Logout"
+            android:textAlignment="center"
+            app:backgroundTint="#F44336" />
+
+        <Button
+            android:id="@+id/backtomain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="435dp"
+            android:layout_marginEnd="157dp"
+            android:text="Back"
+            android:textAlignment="center"
+            app:backgroundTint="#2196F3" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
